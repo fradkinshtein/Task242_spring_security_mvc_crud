@@ -1,7 +1,7 @@
-package artur.repositories;
+package task242.repositories;
 
 
-import artur.model.Role;
+import task242.model.Role;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

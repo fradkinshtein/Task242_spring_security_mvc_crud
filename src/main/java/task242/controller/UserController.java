@@ -1,9 +1,9 @@
-package artur.controller;
+package task242.controller;
 
 import java.security.Principal;
 
-import artur.model.User;
-import artur.service.UserService;
+import task242.model.User;
+import task242.service.UserService;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;

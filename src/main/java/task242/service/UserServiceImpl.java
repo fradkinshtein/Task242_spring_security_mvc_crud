@@ -1,18 +1,13 @@
-package artur.service;
+package task242.service;
 
-import java.util.Arrays;
-import java.util.Collection;
-import java.util.Collections;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
-import java.util.logging.Level;
-import java.util.stream.Collectors;
 
-import artur.model.Role;
-import artur.model.User;
-import artur.repositories.RoleRepository;
-import artur.repositories.UserRepository;
+import task242.model.Role;
+import task242.model.User;
+import task242.repositories.RoleRepository;
+import task242.repositories.UserRepository;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

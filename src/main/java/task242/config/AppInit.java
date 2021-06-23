@@ -1,4 +1,4 @@
-package artur.config;
+package task242.config;
 
 import org.springframework.web.filter.CharacterEncodingFilter;
 import org.springframework.web.filter.HiddenHttpMethodFilter;

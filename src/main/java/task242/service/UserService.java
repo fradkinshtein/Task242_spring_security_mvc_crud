@@ -1,7 +1,7 @@
-package artur.service;
+package task242.service;
 
-import artur.model.Role;
-import artur.model.User;
+import task242.model.Role;
+import task242.model.User;
 
 import java.util.List;
 
