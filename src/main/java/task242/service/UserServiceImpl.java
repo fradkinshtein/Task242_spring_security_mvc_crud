@@ -66,25 +66,5 @@ public class UserServiceImpl implements UserService {
         return userRepository.findByUsername(username);
     }
 
-    @Override
-    @Transactional
-    public List<Role> findAllRoles() {
-        return roleRepository.findAll();
-    }
 
-    @Override
-    @Transactional
-    public Role getRoleById(Long id) {
-        return roleRepository.getOne(id);
-    }
-
-    @Override
-    @Transactional
-    public void setRolesToUser(User user, Long[] roles) {
-        Set<Role> roleList = new HashSet<>();
-        for (Long id : roles) {
-            roleList.add(roleRepository.findById(id).orElse(null));
-        }
-        user.setRoles(roleList);
-    }
 }
